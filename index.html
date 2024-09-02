@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bilingual subtitle maker</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/454/454561.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>雙語字幕產生器</h1>
+
+    <div class="row">
+        <div class="column">
+            <div class="section">
+                <p class="stitle">日本語と平仮名 ⇩</p>
+                <textarea wrap="soft"></textarea>
+                <div class="btngroup">
+                    <button>Copy</button>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="section">
+                <p class="stitle">中国語 ⇩</p>
+                <textarea></textarea>
+                <div class="btngroup">
+                    <button>Copy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr/>
+
+    <div class="row">
+        <div class="column">
+            <div class="section">
+                <p class="stitle">Information</p>
+                <ul>
+                    <li>這個工具可以輕鬆地將兩種語言的字幕合併成雙語字幕。</li>
+                    <li>使用說明: <a href="https://github.com/Benjamin-Yan/bilingual-subtitle-maker?tab=readme-ov-file#雙語字幕產生器" target="_blank">雙語字幕產生器-使用說明</a></li>
+                    <li>最近更新日期: 2024.9.3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div class="section">
+                <p class="stitle">日本語と中国語</p>
+                <p id="bilingual">The output will show here.</p>
+                <div class="btngroup">
+                    <button>Go!</button><button>Copy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <p id="cprt">&copy; 2024 雙語字幕產生器 | 作者：太陽餅</p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
+
